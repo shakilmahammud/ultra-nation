@@ -1,0 +1,16 @@
+.home{
+    background:url(../../Images/Rectangle\ 1.png)no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height:600px;
+    position: relative;
+}
+.home::after{
+    content:'';
+    position: absolute;
+    background:rgba(0, 0, 0, 0.4);
+    width: 100%;
+    top:0;
+    bottom: 0;
+    
+}
